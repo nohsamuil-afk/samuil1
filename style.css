@@ -1,0 +1,243 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    width: 100px;
+}
+
+button {
+    border: 1px solid gray;
+    color: black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    padding: 10px;
+}
+
+input {
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+
+    
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+
+}
+
+.mic {
+    width: 40px;
+}
+
+.account {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.vidcar {
+    width: 1000px;
+    border-radius: 10px;
+    margin: 40px;
+    margin-top: -8px;
+    height: 470px;
+    margin: auto;
+    object-fit: cover;
+    
+}
+
+
+.Subscribe {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.calc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.car {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.nature {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.cars {
+    font-weight: 900;
+}
+
+
+.ert {
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.vidfoot {
+    width: 200px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    margin-top: -15px;
+
+}
+
+.hed {
+    transform:translateY(-35px)  ;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hed2{
+    transform: translateY(20px)
+}
+
+.foot12 {
+    display:block;
+    
+}
+
+.foot1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.text3 {
+    gap: 10px;
+}
+
+.vertigo {
+    /* margin: 30px;
+    margin-top: -6px; */
+    padding-left: 23px;
+
+}
+
+.hed {
+    padding-top:10px;
+
+}
+
+main {
+    gap: 20px;
+}
+
+
+
+@media (max-width:768px) {
+    .vidcar {
+        width: 365px;
+        height: 200px;
+        border-radius:none;
+
+    }
+    main {
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+    }
+
+    header {
+        width: 360px;
+        
+    }
+
+    input {
+        width: 100px;
+        display: none;
+    }
+    .menu {
+        width: 20px;
+    }
+    .vertigo {
+        padding: 0px;
+    }
+    .hed {
+        padding-top:40px;
+        margin-top: 8px;
+    }
+    .mic {
+        display: none;
+    }
+    
+    .vidfoot{
+        height: 170px;
+        width: 250px;
+    }
+        
+    .foot, .foot1 {
+        padding: 0px;
+        padding-top:0px ;
+    }
+    
+  .hed {
+    padding-bottom: -50px;
+  }
+
+  .hed2 {
+    transform: translateY(-13px);
+  }
+
+
+}
